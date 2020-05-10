@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac6ee8a-2ebb-4e15-bfde-3a4da3c010c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Factory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel/Log/LogManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel/Providers/HttpClientServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel/Providers/LogServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel/ServiceContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Provider/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -58,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589075384364</updated>
       <workItem from="1589075386151" duration="6577000" />
+      <workItem from="1589094599899" duration="20000" />
     </task>
     <servers />
   </component>
