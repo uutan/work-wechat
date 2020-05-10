@@ -4,8 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=7.2",
-        "pimple/pimple": "^3.3@dev",
-        "symfony/http-client": "^5.1@dev"
+        "pimple/pimple": "^3.3"
     },
     "license": "MIT",
     "authors": [
@@ -14,7 +13,7 @@
             "email": "uutan@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "WorkWeChat\\": "src/"

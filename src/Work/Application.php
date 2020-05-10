@@ -1,20 +1,24 @@
 <?php
 
 
-namespace WorkWeChat\Provider;
+namespace WorkWeChat\Work;
+
+use WorkWeChat\Kernel\ServiceContainer;
 
 
-
-class Application
+class Application extends ServiceContainer
 {
 
+
+    protected $providers = [
+
+    ];
 
     protected $defaultConfig = [
         'http' => [
             'base_uri' => 'https://qyapi.weixin.qq.com/'
         ]
     ];
-
 
 
     /**

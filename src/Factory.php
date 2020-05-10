@@ -3,7 +3,7 @@
 namespace WorkWeChat;
 
 
-class factory
+class Factory
 {
 
     /**
@@ -15,9 +15,9 @@ class factory
     public static function make($name, array $config)
     {
         $namespace = str_replace(' ', '', ucwords(str_replace(['-', '_'], ' ', $name)));
-        $application  = "\\WorkWeChat\\{{$namespace}}\\Application";
+        $application  = "\\WorkWeChat\\{$namespace}\\Application";
 
-        return $application($config);
+        return new $application($config);
     }
 
 

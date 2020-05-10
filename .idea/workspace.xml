@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac6ee8a-2ebb-4e15-bfde-3a4da3c010c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Agent/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hardware/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Work/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/work-wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/work-wechat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/Application.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +32,6 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
     </include_path>
   </component>
   <component name="ProjectId" id="1bhDMYka6ABbkA80CSSAoQiHqrh" />
@@ -54,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589075384364</updated>
       <workItem from="1589075386151" duration="6577000" />
-      <workItem from="1589094599899" duration="20000" />
+      <workItem from="1589094599899" duration="3270000" />
     </task>
     <servers />
   </component>
@@ -66,10 +68,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="722" y="109" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1589076165515" />
-    <state x="708" y="363" key="NewPhpClassDialog" timestamp="1589088554904">
+    <state x="708" y="363" key="NewPhpClassDialog" timestamp="1589115633528">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="708" y="363" key="NewPhpClassDialog/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1589088554904" />
+    <state x="708" y="363" key="NewPhpClassDialog/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1589115633528" />
     <state x="784" y="470" key="NewPhpFileDialog" timestamp="1589082278389">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
