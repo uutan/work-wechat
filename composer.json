@@ -1,0 +1,23 @@
+{
+    "name": "uutan/work-wechat",
+    "description": "企业微信开口",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "pimple/pimple": "^3.3@dev",
+        "symfony/http-client": "^5.1@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "uutan",
+            "email": "uutan@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WorkWeChat\\": "src/"
+        }
+    }
+}
