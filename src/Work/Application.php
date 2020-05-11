@@ -11,7 +11,7 @@ class Application extends ServiceContainer
 
 
     protected $providers = [
-
+        Base\ServiceProvider::class
     ];
 
     protected $defaultConfig = [

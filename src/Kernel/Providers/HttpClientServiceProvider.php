@@ -3,7 +3,7 @@
 
 namespace WorkWeChat\Kernel\Providers;
 
-use Symfony\Component\HttpClient\HttpClient;
+use Overtrue\Http\Client;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 
@@ -14,7 +14,7 @@ class HttpClientServiceProvider implements ServiceProviderInterface
     {
         // TODO: Implement register() method.
         $pimple['http_client'] = function($app){
-            return HttpClient::create($app['config']->get('http',[]));
+            return Client::create($app['config']->get('http',[]));
         };
     }
 }
